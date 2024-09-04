@@ -2,3 +2,14 @@ baseURL: "https://kareem-ghazi.github.io/website/"
 languageCode: en-us
 title: My New Hugo Site
 theme: PaperMod
+
+params:
+  profileMode:
+    enabled: true
+    title: "Hi" # optional default will be site title
+    subtitle: "This is subtitle"
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Github
+        url: "https://github.com/"
