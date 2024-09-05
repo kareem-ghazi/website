@@ -38,10 +38,10 @@ params:
   ShowCodeCopyButtons: true
   hideMeta: false
 
-  label:
-      text: "Kareem Ghazi"
-      icon: "images/favicon.png"
-      iconHeight: 35
+  # label:
+  #     text: 'Kareem Ghazi'
+  #     icon: 'images/apple-touch-icon.png'
+  #     iconHeight: 35
 
   assets: 
      disableHLJS: true 
@@ -65,8 +65,8 @@ params:
     imageHeight: 175
     imageTitle: "AI Engineering Student"
     buttons:
-      - name: Blogs
-        url: blogs
+      - name: Blog
+        url: blog
       - name: Projects
         url: projects
       - name: Resume
