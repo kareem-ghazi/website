@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://kareem-ghazi.github.io/website/sitemap.xml
