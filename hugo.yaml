@@ -1,14 +1,28 @@
 languageCode: en-us
 baseURL: "https://kareem-ghazi.github.io/website/"
 title: Kareem Ghazi
+paginate: 5
 theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ChaninNantasenamat
-  description: "This is the website of Chanin Nantasenamat, Ph.D. and I create educational content on data science. Some of you may know me as the **Data Professor**."
-  keywords: [Blog, Portfolio, Data Science]
-  author: Chanin Nantasenamat
+  title: Kareem Ghazi
+  description: "I’m Kareem Ghazi, a curious and passionate second-year Artificial Intelligence Engineering student
+   at New Mansoura University, Egypt. Driven by a profound interest in Computer Vision and Robotics,
+    I dedicate myself to exploring these fields and open to whatever comes up new."
+  keywords: [Blog, Portfolio, AI Engineering]
+  author: Kareem Ghazi
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -30,44 +44,64 @@ params:
 
   label:
     text: "Kareem Ghazi"
-    # icon: "images/kareemghazi.png"
-    # iconHeight: 35
+    # icon: "images/coding.png"
+    iconHeight: 35
 
+  # profile-mode
   profileMode:
-    enabled: true
+    enabled: true # needs to be explicitly set
     title: "Welcome! \U0001F44B"
-    subtitle: "I'm **Kareem Ghazi**, a curious and passionate second-year **Artificial Intelligence Engineering student** at New Mansoura University, Egypt. 
-    Driven by a profound interest in Computer Vision and Robotics, 
+    subtitle: "I’m **Kareem Ghazi**, a curious and passionate second-year **Artificial Intelligence Engineering** student
+   at New Mansoura University, Egypt. Driven by a profound interest in Computer Vision and Robotics,
     I dedicate myself to exploring these fields and open to whatever comes up new."
     imageUrl: "images/me.jpg"
     imageWidth: 180
     imageHeight: 180
-    imageTitle: "Artificial Intelligence Engineer"
+    imageTitle: "AI Engineering Student"
     buttons:
       - name: Blogs
         url: blogs
       - name: Projects
         url: projects
+      - name: Resume
+        url: "https://github.com/kareem-ghazi"
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Welcome! \U0001F44B"
+    Content: "I’m **Kareem Ghazi**, a curious and passionate second-year **Artificial Intelligence Engineering** student
+   at New Mansoura University, Egypt. Driven by a profound interest in Computer Vision and Robotics,
+    I dedicate myself to exploring these fields and open to whatever comes up new."
 
   socialIcons:
-    - name: youtube
-      url: "http://youtube.com/dataprofessor"
-    - name: medium
-      url: "https://medium.com/@data-professor"
-    - name: twitter
-      url: "https://twitter.com/thedataprof"
     - name: linkedin
-      url: "https://www.linkedin.com/in/chanin-nantasenamat/"
+      url: "https://www.linkedin.com/in/kareem-ghazi-16547b201/"
     - name: github
-      url: "https://github.com/dataprofessor"
-    - name: buymeacoffee
-      url: "https://www.buymeacoffee.com/dataprofessor"
+      url: "https://github.com/kareem-ghazi"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: false # hide on single page
-  
+
+
+  editPost:
+#    URL: "https://github.com/chanin-www/content"
+#    Text: "Suggest Changes" # edit text
+    URL: ""
+    Text: "" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -77,21 +111,39 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
   
-  menu:
-    main:
-      - identifier: about
-        name: About
-        url: /about/
-        weight: 4
-      - identifier: blog
-        name: Blogs
-        url: /blogs/
-        weight: 1
-      - identifier: projects
-        name: Projects
-        url: /projects/
-        weight: 2
-      - identifier: infographics
-        name: Infographics
-        url: /infographics/
-        weight: 3
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 4
+    - identifier: blog
+      name: Blogs
+      url: /blogs/
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 2
+    - identifier: resume
+      name: Resume
+      url: "https://github.com/kareem-ghazi"
+      weight: 3
+    #- identifier: tags
+    #  name: tags
+    #  url: /tags/
+    #  weight: 4
+
+    #- identifier: example
+    #  name: example.org
+    #  url: https://example.org
+    #  weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
