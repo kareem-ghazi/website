@@ -46,8 +46,8 @@ params:
     enabled: true # needs to be explicitly set
     title: "Welcome! \U0001F44B"
     subtitle: "I’m **Kareem Ghazi**, a curious and passionate second-year **Artificial Intelligence Engineering** student
-   at New Mansoura University, Egypt. Driven by a profound interest in Computer Vision and Robotics,
-    I dedicate myself to exploring these fields and open to whatever comes up new."
+     at New Mansoura University, Egypt. Driven by a profound interest in Computer Vision and Robotics,
+     I dedicate myself to exploring these fields and open to whatever comes up new."
     imageUrl: "images/me.jpg"
     imageWidth: 175
     imageHeight: 175
