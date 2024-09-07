@@ -6,7 +6,13 @@
     <description>Recent content in Projects on Kareem Ghazi</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/website/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bank Management System</title>
+      <link>http://localhost:1313/website/projects/bank-management-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/website/projects/bank-management-system/</guid>
+      <description>A bank management system that includes a login screen for accessing accounts and ability to withdraw, deposit, and transfer to other people. The system also stores all information in a Database and the passwords are encrypted as well for additional security.</description>
+    </item>
   </channel>
 </rss>
