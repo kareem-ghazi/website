@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kareem-ghazi.github.io/website/projects/bank-management-system/</loc>
+  </url><url>
     <loc>https://kareem-ghazi.github.io/website/</loc>
     <lastmod>2024-09-05T22:10:23+03:00</lastmod>
   </url><url>
@@ -14,7 +16,17 @@
     <loc>https://kareem-ghazi.github.io/website/blog/</loc>
     <lastmod>2024-09-05T22:09:36+03:00</lastmod>
   </url><url>
+    <loc>https://kareem-ghazi.github.io/website/tags/bank/</loc>
+  </url><url>
+    <loc>https://kareem-ghazi.github.io/website/tags/banking-system/</loc>
+  </url><url>
+    <loc>https://kareem-ghazi.github.io/website/tags/c&#43;&#43;/</loc>
+  </url><url>
     <loc>https://kareem-ghazi.github.io/website/categories/</loc>
+  </url><url>
+    <loc>https://kareem-ghazi.github.io/website/tags/oop/</loc>
+  </url><url>
+    <loc>https://kareem-ghazi.github.io/website/tags/programming/</loc>
   </url><url>
     <loc>https://kareem-ghazi.github.io/website/search/</loc>
   </url><url>

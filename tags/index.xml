@@ -7,5 +7,40 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <atom:link href="https://kareem-ghazi.github.io/website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bank</title>
+      <link>https://kareem-ghazi.github.io/website/tags/bank/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kareem-ghazi.github.io/website/tags/bank/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Banking-System</title>
+      <link>https://kareem-ghazi.github.io/website/tags/banking-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kareem-ghazi.github.io/website/tags/banking-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://kareem-ghazi.github.io/website/tags/c&#43;&#43;/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kareem-ghazi.github.io/website/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OOP</title>
+      <link>https://kareem-ghazi.github.io/website/tags/oop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kareem-ghazi.github.io/website/tags/oop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://kareem-ghazi.github.io/website/tags/programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kareem-ghazi.github.io/website/tags/programming/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
