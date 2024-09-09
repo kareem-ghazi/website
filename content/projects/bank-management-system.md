@@ -6,6 +6,8 @@ draft: false
 tags: ["C++", "Bank", "Banking-System", "OOP", "Programming"]
 showToc: false
 weight: 301
+cover:
+    image: "projects/bank-management-system/bank-management-system.png"
 ---
 
 The system is written in C++ and applies the OOP paradigm in the code using concepts like Encapsulation, Inheritance, and Polymorphism. The program also uses pointers for some parts in the program to allow for the editing of bank accounts.

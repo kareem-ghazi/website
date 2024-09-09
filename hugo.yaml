@@ -60,7 +60,7 @@ params:
     subtitle: "I’m **Kareem Ghazi**, a curious and passionate second-year **Artificial Intelligence Engineering** student
      at New Mansoura University, Egypt. Driven by a profound interest in Computer Vision and Robotics,
      I dedicate myself to exploring these fields and open to whatever comes up new."
-    imageUrl: "images/me.jpg"
+    imageUrl: "me/me.jpg"
     imageWidth: 175
     imageHeight: 175
     imageTitle: "AI Engineering Student"
