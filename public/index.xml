@@ -6,7 +6,15 @@
     <description>Recent content on Kareem Ghazi</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smart Surveillance System</title>
+      <link>http://localhost:1313/website/projects/smart-surveillance-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/website/projects/smart-surveillance-system/</guid>
+      <description>A smart surveillance system that could be used to recognize registered people on the system, detect how many people are there, or to monitor for suspicious or unknown people in a certain area.</description>
+    </item>
     <item>
       <title>Bank Management System</title>
       <link>http://localhost:1313/website/projects/bank-management-system/</link>

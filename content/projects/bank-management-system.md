@@ -5,7 +5,7 @@ dateString: April 2024 - May 2024
 draft: false
 tags: ["C++", "Bank", "Banking-System", "OOP", "Programming"]
 showToc: false
-weight: 301
+weight: 302
 cover:
     image: "projects/bank-management-system/bank-management-system.png"
 ---

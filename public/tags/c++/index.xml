@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/website/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Smart Surveillance System</title>
+      <link>http://localhost:1313/website/projects/smart-surveillance-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/website/projects/smart-surveillance-system/</guid>
+      <description>A smart surveillance system that could be used to recognize registered people on the system, detect how many people are there, or to monitor for suspicious or unknown people in a certain area.</description>
+    </item>
+    <item>
       <title>Bank Management System</title>
       <link>http://localhost:1313/website/projects/bank-management-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
